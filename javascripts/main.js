@@ -11,8 +11,6 @@ $(document).ready(function () {
   });
 
 
-
-
   // init of the style of the map
   let styles = [
     {
@@ -118,7 +116,6 @@ $(document).ready(function () {
   marker6.setMap(map);
 
   marker1.addListener('click', function () {
-
     $('#mapText').html('Restaurant de <span class="textHighlight">Lyon</span>');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h<br/>Tel : 08.36.65.65.65');
     $('#adresseMap').html('17 Rue Delandine<br/>69002 Lyon');
@@ -127,6 +124,7 @@ $(document).ready(function () {
 
     $("#demo01").trigger('click');
   });
+
   marker2.addListener('click', function () {
     $('#mapText').html('Restaurant de <span class="textHighlight">La Loupe</span>');
     $('#horaireMapResto').html('Mardi au samedi :<br/>19h30 à 23h<br/>Tel : 08.36.65.65.65');
@@ -136,6 +134,7 @@ $(document).ready(function () {
 
     $("#demo01").trigger('click');
   });
+
   marker3.addListener('click', function () {
     $('#mapText').html('Restaurant de <span class="textHighlight">Toulouse</span>');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h<br/>Tel : 08.36.65.65.65');
@@ -145,6 +144,7 @@ $(document).ready(function () {
 
     $("#demo01").trigger('click');
   });
+
   marker4.addListener('click', function () {
     $('#mapText').html('Restaurant de <span class="textHighlight">Orléans</span>');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h<br/>Tel : 08.36.65.65.65');
@@ -154,6 +154,7 @@ $(document).ready(function () {
 
     $("#demo01").trigger('click');
   });
+
   marker5.addListener('click', function () {
     $('#mapText').html('Restaurant de <span class="textHighlight">Bordeaux</span>');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h<br/>Tel : 08.36.65.65.65');
@@ -163,6 +164,7 @@ $(document).ready(function () {
 
     $("#demo01").trigger('click');
   });
+
   marker6.addListener('click', function () {
     $('#mapText').html('Restaurant de <span class="textHighlight">Fontainebleau</span>');
     $('#horaireMapResto').html('Lundi au vendredi :<br/>11h30 à 22h<br/>Tel : 08.36.65.65.65');
@@ -255,20 +257,7 @@ $(document).ready(function () {
       offset: '100%'
     });
 
-
-
-
-
-
-
-
-
-
-
 });
-
-
-
 
 
 //formulaire page franchisés
